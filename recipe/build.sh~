@@ -1,0 +1,11 @@
+mkdir build
+cd build
+if [ `uname -s` = "Darwin" ]
+then
+	cmake .. -D USE_CUDA=OFF
+	 -DCMAKE_PREFIX_PATH=${PREFIX} -DCMAKE_INSTALL_PREFIX=${PREFIX}
+else
+	cmake .. -DCMAKE_PREFIX_PATH=${PREFIX} -DCMAKE_INSTALL_PREFIX=${PREFIX}
+fi
+make
+make install

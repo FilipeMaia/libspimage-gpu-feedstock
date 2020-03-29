@@ -1,0 +1,67 @@
+{% set name = "libspimage" %}
+{% set version = "1.1.dev" %}
+
+package:
+  name: libspimage
+  version: '1.1.dev'
+
+source:
+  git_tag: master
+  git_url: https://github.com/FXIhub/libspimage.git
+  sha256: a0d81f8532c3d8f1f235d232b240f31d678a0dcf
+
+requirements:
+  build:
+    - git
+    - cmake
+#    - {{ compiler('c') }}
+    
+  host:
+    - python 3.8
+    - setuptools
+    - swig
+    - libpng
+    - libtiff
+    - hdf5
+    - fftw
+    - gsl
+    - zlib
+    - numpy
+    - scipy
+
+  run:
+    - python 3.8
+    - libpng
+    - libtiff
+    - hdf5
+    - fftw
+    - gsl
+    - zlib
+    - numpy
+    - scipy
+    - h5py
+
+test:
+  requires:
+    - python 3.8
+    - libpng
+    - libtiff
+    - hdf5
+    - fftw
+    - gsl
+    - zlib
+    - numpy
+    - scipy
+    - h5py
+  imports:
+    - spimage
+
+about:
+  home: https://github.com/FXIhub/libspimage
+  license: GPL
+  license_file: Copyright
+  summary: Phase retrieval library
+
+extra:
+  recipe-maintainers:
+    - FilipeMaia

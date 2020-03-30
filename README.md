@@ -29,13 +29,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python3.5</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=linux&configuration=linux_python3.5" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_python3.6</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
@@ -43,24 +36,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.5</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python3.5" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_python3.6</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
                   <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.5</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=win&configuration=win_python3.5" alt="variant">
                 </a>
               </td>
             </tr><tr>

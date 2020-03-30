@@ -10,4 +10,4 @@ linux_ppc64le:
 provider:
   linux: travis
   osx: travis
-  win: travis
+  win: circle

@@ -15,21 +15,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>CircleCI</td>
-    <td>
-      <a href="https://circleci.com/gh/FilipeMaia/libspimage-feedstock">
-        <img alt="Windows" src="https://img.shields.io/circleci/project/github/FilipeMaia/libspimage-feedstock/master.svg?label=Windows">
-      </a>
-    </td>
-  </tr><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://travis-ci.com/FilipeMaia/libspimage-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/com/FilipeMaia/libspimage-feedstock/master.svg?label=macOS">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>

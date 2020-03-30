@@ -8,6 +8,6 @@ linux_ppc64le:
   enabled: False
 
 provider:
-  linux: travis
-  osx: travis
-  win: circle
+  linux: azure
+  osx: azure
+  win: azure

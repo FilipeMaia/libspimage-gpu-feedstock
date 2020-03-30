@@ -1,6 +1,8 @@
 python:
-  - 3.5
+  - 2.7
   - 3.6
+  - 3.7
+  - 3.8
 
 channel_targets:
   - filipemaia main

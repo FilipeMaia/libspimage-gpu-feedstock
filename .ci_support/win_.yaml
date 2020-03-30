@@ -4,6 +4,8 @@ channel_sources:
 - conda-forge,defaults
 channel_targets:
 - filipemaia main
+cxx_compiler:
+- vs2015
 fftw:
 - '3'
 gsl:

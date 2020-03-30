@@ -4,9 +4,6 @@ channels:
   targets:
     - [filipemaia, main]
 
-linux_ppc64le:
-  enabled: False
-
 provider:
   linux: azure
   osx: azure

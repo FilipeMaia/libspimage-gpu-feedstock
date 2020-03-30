@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('cxx') }} # [not osx]
     
   host:
-    - python 3.8
+    - python
     - setuptools
     - swig
     - libpng
@@ -31,7 +31,7 @@ requirements:
     - scipy
 
   run:
-    - python 3.8
+    - python
     - libpng
     - libtiff
     - hdf5
@@ -44,7 +44,7 @@ requirements:
 
 test:
   requires:
-    - python 3.8
+    - python
     - libpng
     - libtiff
     - hdf5

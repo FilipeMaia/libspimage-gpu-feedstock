@@ -15,6 +15,7 @@ requirements:
     - git
     - cmake
     - {{ compiler('c') }} # [not osx]
+    - {{ compiler('cxx') }} # [not osx]
     
   host:
     - python 3.8

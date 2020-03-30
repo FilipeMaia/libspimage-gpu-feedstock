@@ -3,3 +3,11 @@ github:
 channels:
   targets:
     - [filipemaia, main]
+
+linux_ppc64le:
+  enabled: False
+
+provider:
+  linux: travis
+  osx: travis
+  win: travis

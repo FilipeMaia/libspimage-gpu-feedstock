@@ -10,6 +10,9 @@ source:
   git_url: https://github.com/FXIhub/libspimage.git
   sha256: a0d81f8532c3d8f1f235d232b240f31d678a0dcf
 
+build:
+  skip: true  # [py==35]
+  
 requirements:
   build:
     - git

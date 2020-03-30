@@ -8,3 +8,5 @@ provider:
   linux: azure
   osx: azure
   win: azure
+
+max_py_ver: '38'

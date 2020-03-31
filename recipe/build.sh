@@ -13,6 +13,7 @@ cmake -DUSE_CUDA=ON \
       -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_PREFIX_PATH=${PREFIX} \
       -DCMAKE_INSTALL_PREFIX=${PREFIX} \
+      -DCUDA_TOOLKIT_ROOT_DIR=${CUDA_HOME} \
       ${CMAKE_PLATFORM_FLAGS[@]} \
       ..
 

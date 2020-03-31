@@ -12,6 +12,7 @@ source:
 
 build:
   # CUDA only available for linux
+  skip: True  # [py != 36 or cuda_compiler_version != "10.0"]
   skip: True  # [win or osx]
 
 requirements:

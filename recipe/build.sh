@@ -9,9 +9,11 @@ else
     CMAKE_PLATFORM_FLAGS+=("")
 fi
 
-cmake .. -DUSE_CUDA=OFF \
-	    -DCMAKE_BUILD_TYPE=Release \
-	    -DCMAKE_PREFIX_PATH=${PREFIX} \
-	    -DCMAKE_INSTALL_PREFIX=${PREFIX} \
-	    ${CMAKE_PLATFORM_FLAGS[@]} 
+cmake -DUSE_CUDA=ON \
+      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_PREFIX_PATH=${PREFIX} \
+      -DCMAKE_INSTALL_PREFIX=${PREFIX} \
+      ${CMAKE_PLATFORM_FLAGS[@]} \
+      ..
+
 make install

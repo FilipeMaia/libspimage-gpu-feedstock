@@ -1,8 +1,8 @@
-{% set name = "libspimage" %}
+{% set name = "libspimage-gpu" %}
 {% set version = "1.1.dev" %}
 
 package:
-  name: libspimage
+  name: libspimage-gpu
   version: '1.1.dev'
 
 source:
@@ -11,8 +11,8 @@ source:
   sha256: c627482e15d3335ef85a72c80ed86c8a808bfe88
 
 build:
-  # There are dependency conflicts for Python 2 on Windows
-  skip: True  # [win and py<30]
+  # CUDA only available for linux
+  skip: True  # [win or osx]
 
 requirements:
   build:

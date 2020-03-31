@@ -6,7 +6,7 @@ cd build
 
 :: Configure using the CMakeFiles
 cmake -G "NMake Makefiles" ^
-      -DUSE_CUDA=OFF ^
+      -DUSE_CUDA=ON ^
       -DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
       -DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
       -DCMAKE_BUILD_TYPE:STRING=Release ^

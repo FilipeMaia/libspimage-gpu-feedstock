@@ -20,6 +20,7 @@ requirements:
     - cmake
     - {{ compiler('c') }} # [not osx]
     - {{ compiler('cxx') }} # [not osx]
+    - {{ compiler('cuda') }}  # [linux64 and cuda_compiler_version != "None"]
     
   host:
     - python

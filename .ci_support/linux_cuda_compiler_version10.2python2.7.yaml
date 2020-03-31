@@ -6,12 +6,16 @@ channel_sources:
 - conda-forge,defaults
 channel_targets:
 - filipemaia main
+cuda_compiler:
+- nvcc
+cuda_compiler_version:
+- '10.2'
 cxx_compiler:
 - gxx
 cxx_compiler_version:
 - '7'
 docker_image:
-- condaforge/linux-anvil-comp7
+- condaforge/linux-anvil-cuda:10.2
 fftw:
 - '3'
 gsl:
@@ -37,6 +41,9 @@ pin_run_as_build:
   zlib:
     max_pin: x.x
 python:
-- '3.8'
+- '2.7'
+zip_keys:
+- - cuda_compiler_version
+  - docker_image
 zlib:
 - '1.2'

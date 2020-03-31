@@ -8,7 +8,7 @@ package:
 source:
   git_tag: master
   git_url: https://github.com/FXIhub/libspimage.git
-  sha256: 99c0ae5a11925a3d353a4672eae1c72c43c52ac4
+  sha256: 9ac89517061ba80bd941423488945cd219ea742c
 
 requirements:
   build:

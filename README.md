@@ -1,5 +1,5 @@
-About libspimage
-================
+About libspimage-gpu
+====================
 
 Home: https://github.com/FXIhub/libspimage
 
@@ -23,7 +23,7 @@ Current build status
       <details>
         <summary>
           <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-            <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master">
+            <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master">
           </a>
         </summary>
         <table>
@@ -32,90 +32,46 @@ Current build status
               <td>linux_python2.7</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_python3.6</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_python3.7</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_python3.8</td>
               <td>
                 <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python2.7</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.7</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-feedstock?branchName=master&jobName=win&configuration=win_python3.8" alt="variant">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
+    </td>
+  </tr>
+  <tr>
+    <td>OSX</td>
+    <td>
+      <img src="https://img.shields.io/badge/OSX-disabled-lightgrey.svg" alt="OSX disabled">
+    </td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
     </td>
   </tr>
   <tr>
@@ -131,43 +87,43 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-libspimage-green.svg)](https://anaconda.org/filipemaia/libspimage) | [![Conda Downloads](https://img.shields.io/conda/dn/filipemaia/libspimage.svg)](https://anaconda.org/filipemaia/libspimage) | [![Conda Version](https://img.shields.io/conda/vn/filipemaia/libspimage.svg)](https://anaconda.org/filipemaia/libspimage) | [![Conda Platforms](https://img.shields.io/conda/pn/filipemaia/libspimage.svg)](https://anaconda.org/filipemaia/libspimage) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libspimage--gpu-green.svg)](https://anaconda.org/filipemaia/libspimage-gpu) | [![Conda Downloads](https://img.shields.io/conda/dn/filipemaia/libspimage-gpu.svg)](https://anaconda.org/filipemaia/libspimage-gpu) | [![Conda Version](https://img.shields.io/conda/vn/filipemaia/libspimage-gpu.svg)](https://anaconda.org/filipemaia/libspimage-gpu) | [![Conda Platforms](https://img.shields.io/conda/pn/filipemaia/libspimage-gpu.svg)](https://anaconda.org/filipemaia/libspimage-gpu) |
 
-Installing libspimage
-=====================
+Installing libspimage-gpu
+=========================
 
-Installing `libspimage` from the `filipemaia` channel can be achieved by adding `filipemaia` to your channels with:
+Installing `libspimage-gpu` from the `filipemaia` channel can be achieved by adding `filipemaia` to your channels with:
 
 ```
 conda config --add channels filipemaia
 ```
 
-Once the `filipemaia` channel has been enabled, `libspimage` can be installed with:
+Once the `filipemaia` channel has been enabled, `libspimage-gpu` can be installed with:
 
 ```
-conda install libspimage
+conda install libspimage-gpu
 ```
 
-It is possible to list all of the versions of `libspimage` available on your platform with:
+It is possible to list all of the versions of `libspimage-gpu` available on your platform with:
 
 ```
-conda search libspimage --channel filipemaia
+conda search libspimage-gpu --channel filipemaia
 ```
 
 
 
 
-Updating libspimage-feedstock
-=============================
+Updating libspimage-gpu-feedstock
+=================================
 
-If you would like to improve the libspimage recipe or build a new
+If you would like to improve the libspimage-gpu recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `filipemaia` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `filipemaia` channel.
-Note that all branches in the FilipeMaia/libspimage-feedstock are
+Note that all branches in the FilipeMaia/libspimage-gpu-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.

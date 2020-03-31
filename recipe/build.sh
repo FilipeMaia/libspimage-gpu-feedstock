@@ -11,11 +11,12 @@ fi
 
 # CUDA_HOME is defined by nvcc metapackage
 # From: https://github.com/floydhub/dl-docker/issues/59
-cmake .. -DUSE_CUDA=ON \      
+cmake    -DUSE_CUDA=ON \      
          -DCUDA_TOOLKIT_ROOT_DIR=${CUDA_HOME} \
 	 -DCMAKE_LIBRARY_PATH=${CUDA_HOME}/lib64/stubs \
 	 -DCMAKE_BUILD_TYPE=Release \
 	 -DCMAKE_PREFIX_PATH=${PREFIX} \
 	 -DCMAKE_INSTALL_PREFIX=${PREFIX} \
-	 ${CMAKE_PLATFORM_FLAGS[@]} 
+	 ${CMAKE_PLATFORM_FLAGS[@]} \
+	 ${SRC_DIR}
 make install

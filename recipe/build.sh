@@ -15,6 +15,8 @@ cmake -DUSE_CUDA=ON \
       -DCMAKE_INSTALL_PREFIX=${PREFIX} \
       -DCUDA_TOOLKIT_ROOT_DIR=${CUDA_HOME} \
       ${CMAKE_PLATFORM_FLAGS[@]} \
+      -DCMAKE_VERBOSE_MAKEFILE=ON \
+      -DCUDA_NVCC_FLAGS="-Xcompiler -std=c++11" \
       ..
 
 make install

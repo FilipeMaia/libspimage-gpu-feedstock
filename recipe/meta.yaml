@@ -14,7 +14,7 @@ source:
 build:
   number: {{ build }}
   # CUDA only available for linux
-  skip: True  # [cuda_compiler_version != "10.0"]
+  # skip: True  # [cuda_compiler_version != "10.0"]
   skip: True  # [win or osx]
   string: "cuda_{{ cuda_compiler_version }}_py{{ py }}h{{ PKG_HASH }}_{{ build }}"
 

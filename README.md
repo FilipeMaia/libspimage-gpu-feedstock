@@ -168,6 +168,34 @@ Current build status
                   <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_versionNonepython3.8" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>win_python2.7</td>
+              <td>
+                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.6</td>
+              <td>
+                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
+                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python3.8" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -178,12 +206,6 @@ Current build status
     <td>OSX</td>
     <td>
       <img src="https://img.shields.io/badge/OSX-disabled-lightgrey.svg" alt="OSX disabled">
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
     </td>
   </tr>
   <tr>

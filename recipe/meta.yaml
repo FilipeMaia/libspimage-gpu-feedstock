@@ -1,5 +1,6 @@
 {% set name = "libspimage-gpu" %}
 {% set version = "1.1.dev" %}
+{% set build = 0 %}
 
 package:
   name: libspimage-gpu
@@ -11,6 +12,7 @@ source:
   sha256: c627482e15d3335ef85a72c80ed86c8a808bfe88
 
 build:
+  number: {{ build }}
   # CUDA only available for linux
   skip: True  # [py != 36 or cuda_compiler_version != "10.0"]
   skip: True  # [win or osx]

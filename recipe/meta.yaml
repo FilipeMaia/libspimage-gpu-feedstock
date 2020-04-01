@@ -22,6 +22,8 @@ build:
   number: {{ build }}
   # There are dependency conflicts for Python 2 on Windows
   skip: True  # [win and py<30]
+  # There are dependency conflicts for Python 3.8 on Windows
+  skip: True  # [win and py>=38]
   {% if cuda_compiler_version != 'None' %}
   {% set cuda_prefix = "cuda_" + cuda_compiler_version %}
   {% else %}

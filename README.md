@@ -210,13 +210,6 @@ Current build status
                   <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python3.7" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_python3.8</td>
-              <td>
-                <a href="https://dev.azure.com/FilipeMaia/feedstock-builds/_build/latest?definitionId=&branchName=master">
-                  <img src="https://dev.azure.com/FilipeMaia/feedstock-builds/_apis/build/status/libspimage-gpu-feedstock?branchName=master&jobName=win&configuration=win_python3.8" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
